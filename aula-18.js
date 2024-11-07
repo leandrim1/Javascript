@@ -1,4 +1,4 @@
-const nmero = 3244;
+const numero = 3244;
 const stringA = 'dafivnona'; // Imutavel pois não modifica.
 const verdadeOuFalso = true; // false
 
