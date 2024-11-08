@@ -1,4 +1,4 @@
-function calcular(a,b) {
+function calcular() {
     console.log('calcular')
 }
 
