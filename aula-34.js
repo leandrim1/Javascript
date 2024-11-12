@@ -1,0 +1,38 @@
+const lista = [ // Lista de objetos com nome e idade
+    {
+        nome: 'Jose',
+        idade: 53,
+    },
+    {
+        nome: 'Joao',
+        idade: 23
+    },
+    {
+        nome: 'Maria',
+        idade: 32
+    },
+    {
+        nome: 'Fernanda',
+        idade: 16
+    },
+    {
+        nome: 'Pedro',
+        idade: 56
+    },
+    {
+        nome: 'Andre',
+        idade: 35,
+    },
+]
+
+lista.sort((a, b) => {
+    if (a.nome.toUpperCase() < b.nome.toUpperCase()) {
+        return -1;
+    }
+    if (a.nome.toUpperCase() > b.nome.toUpperCase()) {
+        return 1;
+    }
+    return 0;
+})
+
+console.log(lista)
