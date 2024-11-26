@@ -46,4 +46,4 @@ const funcionario1 = new funcionario (
     '312'
 )
 
-console.log(funcionario1)
+console.log(funcionario1)         
