@@ -19,3 +19,12 @@ ontouchcancel // Ocorre quando o toque é interrompido.
 ontouchend // Ocorre quando o dedo é removido da tela.
 ontouchmove // Ocorre quando o dedo se move na tela.
 ontouchstart // Ocorre quando o dedo entra em contato com a tela.
+
+// EVENTOS HTML
+
+ononline // O navegador detecta conectividade em modo online.
+onoffline // O navegador está em modo offline e sem conectividade.
+onresize // Disparado quando a janela do navegador é redimensionada.
+onload // Disparado quando a pagina está carregada.
+onunload // Disparado quando a pagina é descarregada ou a janela e fechada.
+onerror // Disparado quando o carregamento do recurso falhou (erro de rede).
